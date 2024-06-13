@@ -1,0 +1,52 @@
+ TO RUN DOCKER APACHE httpd
+   16  apt-get
+   17  sudo apt-get update
+   18  docker --version
+   19  docker pull httpd
+   20  sudo docker pull httpd
+   21  docker images
+   22  sudo docker images
+   23  docker run -d --rm --name=mywebapp
+   24  docker run -dit --name my-running-app -p 8080:80 my-apache2
+   25  sudo docker run -dit --name my-running-app -p 8080:80 my-apache2
+   26  sudo docker run -dit --name my-running-app -p 8080:80 httpd
+   27  docker ps
+   28  sudo docker ps
+   29  sudo docker ps -a
+   30  sudo docker stop my-running-app
+   31  sudo docker ps -a
+   32  sudo docker run -dit --name my-running-app -p 8080:80 httpd
+   33  sudo docker ps -a
+   34  sudo docker start my-running-app
+   35  sudo docker stop my-running-app  
+   40  sudo docker rm my-runnng-app 
+   42  sudo docker rm 8f0b35ac19f6
+   43  sudo docker ps -a
+   44  sudo docker run -dit --name myapp -p 80 httpd
+   45  sudo docker ps -a
+   46  docker rm 9add231a26b9
+   47  sudo docker stop  9add231a26b9
+   48  sudo docker rm  9add231a26b9
+   49  docker rm 9add231a26b9
+   50  sudo docker ps -a
+   51  sudo docker run -dit --name myapp -p 8080:80 httpd
+   52  docker version
+   53  sudo docker version
+   54  sudo docker ps -a
+   55  docker run -it myapp sh
+   56  duco docker run -it myapp sh
+   57  sudo  docker run -it myapp sh
+   58  docker login
+   59  docker exec
+   60  sudo docker exec -t -i myapp /bin/bash 
+
+
+IN DOCKER CONTAINER  ( to leave do  CTRL–p then CTRL -q )
+    1  ls 
+    3  cd htdocs/   
+    9  apt-get install vim
+   10  apt-get install vi
+   11  apt-get update
+   12  apt-get install vim
+   13  sudo vi index.html
+   14  vi index.html 

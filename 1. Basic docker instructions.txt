@@ -9,12 +9,9 @@
    23  docker run -d --rm --name=mywebapp
    24  docker run -dit --name my-running-app -p 8080:80 my-apache2
    25  sudo docker run -dit --name my-running-app -p 8080:80 my-apache2
-   26  sudo docker run -dit --name my-running-app -p 8080:80 httpd
-   27  docker ps
-   28  sudo docker ps
+   26  sudo docker run -dit --name my-running-app -p 8080:80 httpd 
    29  sudo docker ps -a
-   30  sudo docker stop my-running-app
-   31  sudo docker ps -a
+   30  sudo docker stop my-running-app 
    32  sudo docker run -dit --name my-running-app -p 8080:80 httpd
    33  sudo docker ps -a
    34  sudo docker start my-running-app
